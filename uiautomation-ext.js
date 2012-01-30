@@ -49,7 +49,7 @@ extend(UIAElement.prototype, {
 	},
 	
 	/**
-   * A shortcut for waiting an element to become visible and tap.
+   * A shortcut for waiting for an element to become visible and tap.
    */
   vtap: function() {
     this.waitUntilVisible(10);

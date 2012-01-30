@@ -106,7 +106,7 @@ function assertNotNull(thingie, message) {
  * definition is a JavaScript object whose property hierarchy matches
  * the given UIAElement.  Property names in the given definition that match a
  * method will cause that method to be invoked and the matching to be performed
- * and the result. For example, the UITableView exposes all UITableViewCells through
+ * on the result. For example, the UITableView exposes all UITableViewCells through
  * the cells() method. You only need to specify a 'cells' property to
  * cause the method to be invoked.
  */
